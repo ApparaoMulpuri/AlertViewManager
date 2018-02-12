@@ -39,8 +39,8 @@ DESC
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license          = { :type => 'MIT', :file => 'FILE_LICENSE' }
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  # s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -84,7 +84,7 @@ DESC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ApparaoMulpuri/AlertViewManager.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ApparaoMulpuri/AlertViewManager.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
