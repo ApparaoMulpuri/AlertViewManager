@@ -17,17 +17,16 @@ Pod::Spec.new do |s|
 
   s.name         = "AlertViewManager"
   s.version      = "0.0.1"
-  s.summary      = "AlertViewManager is a singleton class for dispalying the UIAlerts in the applicaiton. 
-  Also, this class solves the multiple alert displays same time in the application"
+  s.summary      = "AlertViewManager is a singleton class for dispalying the UIAlerts in the iOS applicaiton."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC AlertViewManager is a singleton class for dispalying the UIAlerts in the applicaiton. 
-  Also, this class solves the multiple alert displays same time in the application
-                   DESC
+s.description      = <<-DESC
+AlertViewManager is a singleton class for dispalying the UIAlerts in the applicaiton. Also, this class solves the multiple alert displays same time in the application
+DESC
 
   s.homepage     = "https://github.com/ApparaoMulpuri/AlertViewManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -68,9 +67,9 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
-  s.ios.deployment_target = '8.0'
-  s.swift_version = '4.0'
-  s.source_files = 'AlertViewManager/AlertViewManager.swift'
+    s.ios.deployment_target = '8.0'
+#s.swift_version = '4.0'
+    s.source_files = 'AlertViewManager/AlertViewManager.swift'
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"

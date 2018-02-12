@@ -8,6 +8,22 @@
 ## Introduce
 AlertViewManager is a singleton class for dispalying the UIAlerts in the applicaiton. Also, this class solves the multiple alert displays same time in the application. 
 
+
+## Requirements
+
+`AlertViewManager` written in Swift 4. Compatible with iOS 8.0+
+
+## Installation
+
+### Cocoapods
+
+AlertViewManager is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```
+pod 'AlertViewManager'
+```
+
 #### Example Usage: 
      AlertViewManager.sharedManager.showOkAlert("Title", message: "Custom Mesasge for the title", handler: nil)
      
